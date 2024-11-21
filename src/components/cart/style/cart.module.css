@@ -1,0 +1,74 @@
+.Cart{
+    position: fixed;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border-radius: 50rem;
+    width: 680rem;
+    height: 115rem;
+    z-index: 1015;
+    bottom: 0;
+    background-color: #333;
+    border: none;
+    padding: 0;
+    box-shadow: 0 0 25rem rgba(0, 0, 0, 0.5);
+}
+.IconBar{
+}
+.IconBar i{
+    position: absolute;
+    padding-left: 25rem;
+    font-size: 135rem;
+    bottom: 0;
+    color: #FCBF49;
+}
+.TotalAmount{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    color: white;
+    left: 125rem;
+    top: -30rem;
+    position: absolute;
+    background-color: darkred;
+    width: 45rem;
+    height: 45rem;
+    font-size: 25rem;
+    border-radius: 50%;
+}
+.Price{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 45rem;
+    font-weight: bold;
+    left: 185rem;
+    color: whitesmoke;
+}
+.Btn{
+    bottom: 0;
+    position: absolute;
+    font-size: 35rem;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    right: 0;
+    width: 245rem;
+    height: 115rem;
+    border-radius: 50rem;
+    border: none;
+}
+.BtnRe{
+    bottom: 0;
+    position: absolute;
+    font-size: 35rem;
+    font-weight: bold;
+    color: white;
+    background: dimgrey;
+    right: 0;
+    width: 245rem;
+    height: 115rem;
+    border-radius: 50rem;
+    border: none;
+}

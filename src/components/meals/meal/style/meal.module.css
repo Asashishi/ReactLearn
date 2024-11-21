@@ -1,0 +1,58 @@
+.Meal {
+    border-bottom: 15rem solid #e4e4e4;
+    display: flex;
+    /*辅轴对齐方式*/
+    padding: 15rem;
+
+}
+.MealCheck {
+    border-bottom: 3rem solid #e4e4e4;
+    display: flex;
+    /*辅轴对齐方式*/
+    padding: 15rem;
+    margin: 5rem;
+}
+.ImageBox{
+    width: 275rem;
+    padding-right: 15rem;
+}
+.ImageBoxNoDesc{
+    width: 175rem;
+    padding-right: 15rem;
+}
+.ImageBox img{
+    width: 215rem;
+    height: 200rem;
+}
+.ImageBoxNoDesc img{
+    width: 135rem;
+    height: 135rem;
+}
+.Tittle{
+    font-weight: bolder;
+    font-size: 35rem;
+    margin: 0;
+}
+.Desc{
+    width: 95%;
+    font-size: 25rem;
+    color: dimgrey;
+    padding: 5rem;
+}
+.PriceWrapper{
+    display: flex;
+    margin-top: 15rem;
+    /*左右分布*/
+    justify-content: space-between;
+}
+.Price{
+    font-size: 30rem;
+    font-weight: bolder;
+}
+.Price:before{
+    content: "￥";
+    font-size: 20rem;
+}
+.DescWrapper{
+    flex: auto;
+}

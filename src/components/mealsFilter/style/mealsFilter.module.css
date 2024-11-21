@@ -1,0 +1,33 @@
+.MealsFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    height: 115rem;
+    background-color: white;
+    left: 0;
+    right: 0;
+    border-bottom: 5rem solid #e4e4e4
+}
+.InputWrapper{
+    position: relative;
+}
+.InputWrapper i{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    font-size: 30rem;
+    padding-top: 10rem;
+    padding-left: 25rem;
+    color: dimgrey;
+}
+.SearchInput{
+    font-size: 25rem;
+    border-radius: 35rem;
+    width: 635rem;
+    height: 70rem;
+    padding-left: 70rem;
+    background-color: lightgrey;
+    border: none;
+}

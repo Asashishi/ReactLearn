@@ -1,0 +1,41 @@
+.CartDetails{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 115rem;
+    border-top-left-radius: 35rem;
+    border-top-right-radius: 35rem;
+    margin: 0;
+    overflow: hidden;
+}
+.Header{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15rem 45rem 15rem 45rem;
+    border-bottom: 5rem solid #e4e4e4;
+}
+.Header p{
+    margin: 0;
+    padding: 0;
+}
+.Title{
+    font-weight: bold;
+    font-size: 25rem;
+}
+.ClearCart{
+    color: dimgrey;
+    font-weight: bold;
+    font-size: 25rem;
+}
+.ClearCart i {
+    margin-left: 5rem;
+}
+.CartData{
+    max-height: 815rem;
+    overflow: auto;
+}

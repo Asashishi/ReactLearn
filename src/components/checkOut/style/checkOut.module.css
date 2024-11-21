@@ -1,0 +1,53 @@
+.CheckOut {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1015;
+    background-color: whitesmoke;
+}
+.Close{
+    display: block;
+    font-size: 45rem;
+    color: gold;
+    padding: 25rem;
+    right: 0;
+}
+.Header{
+    display: flex;
+    height: 75rem;
+    padding: 15rem;
+    border-bottom: 1rem solid darkgray;
+}
+.Tittle{
+    font-weight: bold;
+    font-size: 30rem;
+    margin: 0;
+}
+.MealsDesc{
+    background-color: #FFFFFF;
+    border-radius: 45rem;
+    padding: 0 40rem;
+    margin: 25rem;
+}
+.Footer{
+    height: 75rem;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 25rem;
+    padding-top: 25rem;
+    border-top: 0.5rem solid darkgray;
+}
+
+.Price:before{
+    content: "合计￥ ";
+    font-size: 20rem;
+    font-weight: normal;
+    margin-right: 3rem;
+}
+.MealList{
+    max-height: 515rem;
+    overflow: auto;
+}

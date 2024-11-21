@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 微软雅黑, sans-serif;
+    background-color: rgba(0,0,0,0);
+}
+img{
+    /*解决边框下的距离*/
+    vertical-align: middle;
+}
